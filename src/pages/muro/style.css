@@ -1,10 +1,22 @@
-.container{
+/*Menú flotante*/
+/* .container{
     padding: 90px;
     margin-left: 0px;
     margin-right: 0px;
-}
+} */
 
+/*Textarea*/
 .rowOne{
     padding: 100px;
     
 }
+/*Menú fijo*/
+#barra{
+    position: absolute;
+}
+
+#busqueda{
+    position: absolute;
+    margin-left: 450px;
+}
+
