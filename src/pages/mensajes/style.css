@@ -1,0 +1,10 @@
+/*Menú fijo*/
+#barra{
+    position: absolute;
+}
+
+/*Barra de búsqueda*/
+/* #busqueda{
+    position: absolute;
+    margin-left: 450px;
+} */
