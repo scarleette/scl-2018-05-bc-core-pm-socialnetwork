@@ -8,13 +8,41 @@
     <title>Login</title>
 </head>
 <body>
-    <ul>
-        <li><a href="../perfil/perfil.html">Ver Perfil</a></li>
-        <li><a href="../registro/registro.html">Pantalla de Registro</a></li>
-        <li><a href="../muro/muro.html">Ver Muro</a></li>
-        <li><a href="../buscadoramigos/buscarAmigos.html">Buscar amigos</a></li>
-        <li><a href="../mensajes/mensajes.html">Mensajeria Privada</a></li>
-    </ul>
-</body>
+    <header>
+        <ul>
+            <li><a href="../perfil/perfil.html">Ver Perfil</a></li>
+            <li><a href="../registro/registro.html">Pantalla de Registro</a></li>
+            <li><a href="../muro/muro.html">Ver Muro</a></li>
+            <li><a href="../buscadoramigos/buscarAmigos.html">Buscar amigos</a></li>
+            <li><a href="../mensajes/mensajes.html">Mensajeria Privada</a></li>
+        </ul>
+    </header>
+    <section>
+        <form id="formulario" action="../perfil/perfil.html">
+            <div>Correo Electronico</div>
+            <input type="text" id="correoElectronico">
+            <div>Contraseña</div>
+            <input type="password" id="contraseña">
+            <button type="submit">Ingresar</button>
+        </form>   
+    </section>
+    <section>
+        <div>¿No tienes cuenta aun?</div>
+        <div> <a href="../registro/registro.html">REGISTRATE</a></div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
+            authDomain: "red-social-cc22a.firebaseapp.com",
+            databaseURL: "https://red-social-cc22a.firebaseio.com",
+            projectId: "red-social-cc22a",
+            storageBucket: "red-social-cc22a.appspot.com",
+            messagingSenderId: "1056204867810"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="app.js"></script>
+</body>
 </html>

@@ -16,6 +16,36 @@
         <li><a href="../buscadoramigos/buscarAmigos.html">Buscar amigos</a></li>
         <li><a href="../mensajes/mensajes.html">Mensajeria Privada</a></li>
     </ul>
-</body>
+    <section>
+        <form action="#" id="formulario">
+            <span>Nickname</span>
+            <input type="text" id="nickname">
+            <span>Nombre</span>
+            <input type="text" id="nombre">
+            <span>Apellidos</span>
+            <input type="text" id="apellido">
+            <span>Edad</span>
+            <input type="text" id="edad">
+            <span>Correo</span>
+            <input type="text" id="correo">
+            <span>contrasena</span>
+            <input type="password" id="contrasena">
+            <button type="submit" id="boton">Enviar</button>
+        </form>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
+          authDomain: "red-social-cc22a.firebaseapp.com",
+          databaseURL: "https://red-social-cc22a.firebaseio.com",
+          projectId: "red-social-cc22a",
+          storageBucket: "red-social-cc22a.appspot.com",
+          messagingSenderId: "1056204867810"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="app.js"></script>
+</body>
 </html>
