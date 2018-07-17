@@ -10,59 +10,18 @@ formulario.addEventListener('submit', e =>  {
     const contrasena = document.getElementById('contrasena').value;
     if(nombre.length != 0 && apellido.length != 0 && edad.length != 0
     && correo.length != 0 && contrasena.length != 0 && nickName.length != 0) {
-        firebase.database().ref(nickName).once('value')
-            .then((snapshot)=> {
-                const usuarioEnFireBase = snapshot.val();
-                if(usuarioEnFireBase != null) {
-                    //usuario si existe 
-                    e.preventDefault();
-                    console.log('existe')
-                } else {
-                    //usaurio no existe
-                    console.log('no existe')
-                    guardarUsuarioEnFireBase(nickName, nombre, apellido, edad, correo, contrasena);
-
-                }
-               
+        firebase.auth().createUserWithEmailAndPassword(correo, contrasena)
+        .then(Response => {
+            // console.log(Response);
+            const userId = Response.user.uid;
+            // console.log(userId);
+            firebase.database().ref('users/' + userId).set( {
+               nickName: nickName,
+               nombre: nombre,
+               apellido: apellido,
+               edad: edad,
+               correo: correo 
             })
-        
-    }  else {
-        console.log('campos vacios');
-        
+        })
     }
 });
-
-function guardarUsuarioEnFireBase(nickName, nombre, apellido, edad, correo, contrasena) {
-    firebase.database().ref(nickName).set({
-        name: nombre,
-        last_name: apellido,
-        age: edad,
-        email: correo,
-        password: contrasena
-    })
-    .then((response)=> {
-        console.log(response);
-        
-    });
-};
-
-    
-//     // obtener objeto
-//     const newObject = document.getElementById('formulario');
-//     // Crear referencia en fireBase
-//     const objetoRef = firebase.database().ref().child('objeto').set({
-//         username: name,
-//       });
-  
-//     // sincronizar cambios en los Objetos
-//     objetoRef.on('value', snap =>// console.log(snap.val()));
-//     // imprimir en html
-//     newObject.innerHTML = JSON.stringify(snap.val()));
-// })()
-
-// Set crea un objeto con datos en database.
-// set({
-//       username: name,
-//       email: email,
-//       profile_picture : imageUrl
-//     });
