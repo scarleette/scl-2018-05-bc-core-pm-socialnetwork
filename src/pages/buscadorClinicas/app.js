@@ -1,7 +1,7 @@
 //Funcionalidad Parallax
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
+// $(document).ready(function(){
+//     $('.parallax').parallax();
+//   });
 
 //Funcionalidad Menú
 $(document).ready(function(){
