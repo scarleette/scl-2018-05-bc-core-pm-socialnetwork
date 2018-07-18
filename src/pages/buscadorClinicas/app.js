@@ -1,7 +1,13 @@
 //Funcionalidad Parallax
+<<<<<<< HEAD
 // $(document).ready(function(){
 //     $('.parallax').parallax();
 //   });
+=======
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+>>>>>>> muro
 
 //Funcionalidad Menú
 $(document).ready(function(){

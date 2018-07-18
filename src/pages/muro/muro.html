@@ -9,6 +9,8 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- Link para íconos -->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
      <title>Muro</title>
 </head>
 <body>
@@ -54,11 +56,11 @@
             <a href="#name"><span class="white-text name">Nombre</span></a>
             <a href="#email"><span class="white-text email">Correo electrónico</span></a>
           </div></li>
-          <li><a href="../home/home.html"><i class="material-icons">home</i>Inicio</a></li>
+          <li><a href="#!"><i class="material-icons">home</i>Inicio</a></li>
           <li><a href="../muro/muro.html"><i class="material-icons">account_circle</i>Muro</a></li>
           <li><a href="../mensajes/mensajes.html"><i class="material-icons">email</i>Mensajes privados</a></li>
           <li><a href="../buscadoramigos/buscarAmigos.html"><i class="material-icons">group</i>Buscar amigos</a></li>
-          <li><a href="../preguntas/preguntasvet.html"><i class="material-icons">local_hospital</i>Preguntas al veterinario</a></li>
+          <li><a href="#!"><i class="material-icons">local_hospital</i>Preguntas al veterinario</a></li>
           <li><a href="../buscadorClinicas/buscadorClinica.html"><i class="material-icons">local_convenience_store</i>Clínicas veterinarias</a></li>
           <li><div class="divider"></div></li>
           <li><a class="subheader">Nombre Red Social</a></li>
@@ -67,23 +69,29 @@
         
 
 <!--Escribe aquí-->
+<!--Estructura para el post-->
 
-    <div class="rowOne">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s11">
-              <i class="material-icons prefix">mode_edit</i>
-              <textarea id="icon_prefix2" class="materialize-textarea" data-length="120"></textarea>
-              <label for="icon_prefix2">Escribe un mensaje aquí</label>
-            </div>
-          </div>
-        </form>
+<section id="post">
+ 
+</section>
+
+
+<!--Estructura para mi post-->  
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <input type="text" id="nombre" placeholder="nombre"> 
+      <textarea name="" id="comentario" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
+      <a id="enviar" class="btn btn-primary" onclick="guardar()">Enviar</a>
     </div>
+
       
 </body>
+
      <!-- Link Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <!-- Link Materialize para JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-     <script src="app.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script><script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+     
+     <script src="muro.js"></script>
 </html>
