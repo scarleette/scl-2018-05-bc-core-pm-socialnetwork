@@ -4,11 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link Materialize para css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Link para íconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Perfil</title>
 </head>
 <body>
-   <header>
-       <h1>Perfil</h1>
-   </header> 
+    <nav class="lime"> 
+        <div id="barra"> 
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+        <!--Despliegue menú-->
+        <ul id="slide-out" class="sidenav">
+            <li><a class="subheader">Little Pet Socity Comunity</a></li>
+            <li><a href="../muro/muro.html"><i class="material-icons">account_circle</i>Muro</a></li>
+            <li><a href="../mensajes/mensajes.html"><i class="material-icons">email</i>Mensajes privados</a></li>
+            <li><a href="../buscadoramigos/buscarAmigos.html"><i class="material-icons">group</i>Buscar amigos</a></li>
+            <li><a href="../buscadorClinicas/buscadorClinica.html"><i class="material-icons">local_convenience_store</i>Clínicas veterinarias</a></li>
+            <li><div class="divider"></div></li>
+         </ul>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="input-field col s6">
+                    <div class="imagen" id="imagen-de-usuario">
+                        <img src="imagen/RyGNqDEM_400x400.jpg" height="200px">
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <h4>Bienvenido a nuestra comunidad ..</h4>
+                            <div id="informacion-usuario"></div>
+                        </div>
+                    </div> 
+               </div>        
+            </div>
+        </div>
+    </section>
+     <!-- Link Jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!-- Link Materialize para JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
+            authDomain: "red-social-cc22a.firebaseapp.com",
+            databaseURL: "https://red-social-cc22a.firebaseio.com",
+            projectId: "red-social-cc22a",
+            storageBucket: "red-social-cc22a.appspot.com",
+            messagingSenderId: "1056204867810"
+        };
+        firebase.initializeApp(config);
+    </script>
+   <script src="app.js"></script> 
 </body>
 </html>
