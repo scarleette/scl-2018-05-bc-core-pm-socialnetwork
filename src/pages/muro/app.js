@@ -17,7 +17,8 @@ function enviarComentario(){
 
   })
 }*/
-  
+
+/*
 const boton = document.getElementById('boton');
 boton.addEventListener('click', () =>{
     let comentario = document.getElementById('coment').value;
@@ -29,11 +30,25 @@ boton.addEventListener('click', () =>{
     contenedorTexto.appendChild(nuevoContenedorTexto);
     nuevoComentario.appendChild(contenedorTexto);
     contenedor.appendChild(nuevoComentario);
+*/
+let txtMensaje = document.getElementById("coment");
+const btnEnviar = document.getElementById("boton");
+let chat =  document.getElementById("contenedor");
 
-    firebase.database().ref('users').push({
-      nickName : u,
-      messeger : coment
-    })
+btnEnviar.addEventListener("click",()=>{
+  let mensaje = textMensaje.value;
   
+  firebase.database().ref('users').push({
+    message : mensaje
+  });
+});
+firebase.database().ref('users')
+.on('value', function(snapshot){
+  snapshot.forEach(function(e){
+    let element= e.val();
+    let mensaje = element.menssage;
+    chat.innerHTML = chat
+  })
 })
 
+    
