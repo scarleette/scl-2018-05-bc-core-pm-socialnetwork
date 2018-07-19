@@ -1,6 +1,5 @@
 let formulario = document.getElementById('formulario');
 // console.log(formulario);
-
 // manejar algo quiere decir que controlar lo que contiene
 // el evento es un momento
 function manejarSubmit(evento) {
@@ -22,12 +21,12 @@ function manejarSubmit(evento) {
 // se ejecuta la funcion
 formulario.addEventListener('submit', manejarSubmit);
 
-const botonFacebook = document.getElementById('botonFacebook');
-
 function inicioSesionFacebook(){
-    const provider = new firebase.auth.FacebookAuthProvider(); // creamos un nuevo objeto 
+    // creamos un nuevo objeto 
+    const provider = new firebase.auth.FacebookAuthProvider(); 
     console.log(provider);
-    provider.setCustomParameters({ // le decimos que haga un login con facebook y enlace un popup
+    // le decimos que haga un login con facebook y enlace un popup
+    provider.setCustomParameters({ 
         'display' : 'popup'
     });
     firebase.auth().signInWithPopup(provider)
@@ -35,7 +34,9 @@ function inicioSesionFacebook(){
             console.log("Login con facebook exitoso");
         })
         .catch((error)=>{
-            console.log("Error de firebase > Código > "+error.code); //error.code nos mostrará el código de error para informarnos qué pasó
-            console.log("Error de firebase > Mensaje > "+error.message); //error.message nos mostrará el mensaje de firebase del mismo error
+            //error.code nos mostrará el código de error para informarnos qué pasó
+            console.log("Error de firebase > Código > "+error.code);
+            //error.message nos mostrará el mensaje de firebase del mismo error 
+            console.log("Error de firebase > Mensaje > "+error.message); 
         });
     }
