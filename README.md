@@ -82,12 +82,7 @@ A continuación, se muestra el proceso de diseño de la red social, cómo se des
 
 * ¿Cuáles son los elementos básicos que tiene una red social?
 
-+Muro. 
-+Acceso a publicaciones (comentarios, imágenes, videos, etc) visibles para todos los usuarios de la red social.
-+Tener acceso a la búsqueda de amigos. 
-+Enviar solicitudes de amistad.
-+Aceptar y eliminar amigos.
-+Enviar mensajes privados a mis amigos.
+Muro, acceso a publicaciones (comentarios, imágenes, videos, etc) visibles para todos los usuarios de la red social, tener acceso a la búsqueda de amigos, enviar solicitudes de amistad, aceptar y eliminar amigos, enviar mensajes privados a mis amigos.
 
 * ¿Quiénes son los principales usuarios de producto?
 
