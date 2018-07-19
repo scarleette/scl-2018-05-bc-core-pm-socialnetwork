@@ -22,7 +22,14 @@ formulario.addEventListener('submit', e =>  {
                edad: edad,
                correo: correo 
             })
+            console.log('ya envie los datos');
+            
         })
        // location.href = '../login/login.html';
     }
 });
+
+function paraIrALogin() {
+    location.href = '../login/login.html';
+}
+
