@@ -67,7 +67,7 @@ Otras consideraciones:
 
 ### UX
 
-A continuación, se muestra el proceso de diseño de la red social:
+A continuación, se muestra el proceso de diseño de la red social, cómo se descubrieron las necesidades de los usuarios y cómo se llegó a la definición final del producto:
 
 * [Elección del tema](https://i.imgur.com/12UnuuC.png)
 * [Planning](link)
@@ -80,17 +80,14 @@ A continuación, se muestra el proceso de diseño de la red social:
 * [Guía de entrevista a usuarios](https://docs.google.com/forms/d/e/1FAIpQLSeSEutiFsjnyX_2K_mt202xc0b3sW6d2tKO7ptmyYj3YFw2nA/viewform?usp=sf_link)
 * [Resultado entrevista a usuarios](link)
 
-
-También, cómo se descubrieron las necesidades de los usuarios y cómo se llegó a la definición final del producto. 
-
 * ¿Cuáles son los elementos básicos que tiene una red social?
 
--Muro. 
--Acceso a publicaciones (comentarios, imágenes, videos, etc) visibles para todos los usuarios de la red social.
--Tener acceso a la búsqueda de amigos. 
--Enviar solicitudes de amistad.
--Aceptar y eliminar amigos.
--Enviar mensajes privados a mis amigos.
++Muro. 
++Acceso a publicaciones (comentarios, imágenes, videos, etc) visibles para todos los usuarios de la red social.
++Tener acceso a la búsqueda de amigos. 
++Enviar solicitudes de amistad.
++Aceptar y eliminar amigos.
++Enviar mensajes privados a mis amigos.
 
 * ¿Quiénes son los principales usuarios de producto?
 
@@ -98,7 +95,7 @@ Dueños de mascotas (perros y gatos), potenciales dueños en un futuro y/o perso
 
 * ¿Qué problema resuelve el producto para estos usuarios?
 
--Resuelve dudas de cuidados básicos en una mascota, desde la guía y orientación de desparasitación, vacunación e implantación de microchip, hasta qué enfermedades pueden afectar a cada animal (animales menores).
+Resuelve dudas de cuidados básicos en una mascota, desde la guía y orientación de desparasitación, vacunación e implantación de microchip, hasta qué enfermedades pueden afectar a cada animal (animales menores).
 
 
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
