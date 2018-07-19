@@ -3,23 +3,30 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
   });
   
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
+    authDomain: "red-social-cc22a.firebaseapp.com",
+    databaseURL: "https://red-social-cc22a.firebaseio.com",
+    projectId: "red-social-cc22a",
+    storageBucket: "red-social-cc22a.appspot.com",
+    messagingSenderId: "1056204867810"
+  };
+  firebase.initializeApp(config);
+
+  //archivo que saque en firabe donde dice agregar datos
+  // Initialize Cloud Firestore through Firebase
+  var db = firebase.firestore();
+
   window.onload = () =>{
     firebase.auth().onAuthStateChanged( user =>{
         if(user){ //Si está logeado, mostraremos la opción loggedIn
+            console.log("acaba el user")
             console.log(user);
             perfil(user);
         }
     });
   }
-
-  firebase.initializeApp({
-    apiKey: 'AIzaSyDLaVedicqCbbFS9Go6CtbfX8COxlZTazk',
-    authDomain: 'hola-1e1cf.firebaseapp.com',
-    projectId: 'hola-1e1cf'
-  });
-  //archivo que saque en firabe donde dice agregar datos
-  // Initialize Cloud Firestore through Firebase
-  var db = firebase.firestore();
 //agregar documentos
 function guardar(){
     //manejo del dom, creo variables para guardar los datos que recopilare en los input 
@@ -27,8 +34,8 @@ function guardar(){
     let comentario =  document.getElementById("comentario").value
 
 
-    db.collection("users").add({
-        first: nombre,
+    db.collection("post").add({
+        nombre: "natalia",
         comentario: comentario
         
     })
