@@ -9,14 +9,13 @@
     <!-- Link para íconos -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
     <title>Registro</title>
 </head>
 <body>
     <header class="container" id="titulo">
         <div class="row">
             <div class="input-field col s6">
-                <h3>Registrate en<strong>LittlePetSociety</strong></h3>
+                <h3>Registrate en <strong>LittlePetSociety</strong></h3>
             </div>
         </div>   
     </header>
@@ -66,40 +65,23 @@
             </form>
         </div>
     </section>
- <!-- Link Jquery -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <!-- Link Materialize para JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
- <!-- Link para firebase-->
- <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
- <script>
- // Initialize Firebase
-     var config = {
-         apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
-         authDomain: "red-social-cc22a.firebaseapp.com",
-         databaseURL: "https://red-social-cc22a.firebaseio.com",
-         projectId: "red-social-cc22a",
-         storageBucket: "red-social-cc22a.appspot.com",
-         messagingSenderId: "1056204867810"
-     };
-     firebase.initializeApp(config);
- </script>
- <script src="app.js"></script>
+    <!-- Link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link Materialize para JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
+            authDomain: "red-social-cc22a.firebaseapp.com",
+            databaseURL: "https://red-social-cc22a.firebaseio.com",
+            projectId: "red-social-cc22a",
+            storageBucket: "red-social-cc22a.appspot.com",
+            messagingSenderId: "1056204867810"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="app.js"></script>
 </body>
 </html>
-
-<!-- <form action="#" id="formulario">
-        <span>Nickname</span>
-        <input type="text" id="nickname">
-        <span>Nombre</span>
-        <input type="text" id="nombre">
-        <span>Apellidos</span>
-        <input type="text" id="apellido">
-        <span>Edad</span>
-        <input type="text" id="edad">
-        <span>Correo</span>
-        <input type="text" id="correo">
-        <span>contrasena</span>
-        <input type="password" id="contrasena">
-        <button type="submit" id="boton">Enviar</button>
-    </form> -->
