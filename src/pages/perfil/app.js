@@ -3,9 +3,18 @@ $(document).ready(function(){
   $('.sidenav').sidenav();
 });
 
+window.onload = () =>{
+  firebase.auth().onAuthStateChanged( user =>{
+      if(user){ //Si está logeado, mostraremos la opción loggedIn
+          console.log(user);
+          perfil(user);
+      }
+  });
+}
+
 function perfil(user) { console.log(user);
   const perfilUsuario = document.getElementById('informacion-usuario');
-  firebase.database().ref(`users/${user.uid}`) //ref es la ruta para llegar a los datos
+  firebase.database().ref(`users/${user.uid}`)//ref es la ruta para llegar a los datos
   .once('value')
   .then((user)=>{
     const nickname = user.val().nickName;
@@ -20,28 +29,3 @@ function perfil(user) { console.log(user);
       console.log("Database error > "+JSON.stringify(error));
   });
 }
-
-window.onload = () =>{
-  firebase.auth().onAuthStateChanged( user =>{
-      if(user){ //Si está logeado, mostraremos la opción loggedIn
-          // console.log(user);
-          perfil(user);
-      }
-  });
-}
- 
-
-// function estadoUsuario() {
-//   firebase.auth().onAuthStateChanged(firebaseUsers => {
-//     if(firebaseUsers){
-//       console.log(firebaseUsers);
-//       const perfilUsuario = firebaseUsers.uid;
-//       console.log(perfilUsuario);
-//       perfil(perfilUsuario);
-//     } else {
-//       console.log('debes loguearte');
-      
-//     }
-//   })
-// }
-// estadoUsuario();
