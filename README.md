@@ -20,7 +20,7 @@ LittlePetSociety permite lo siguiente:
   - Validaciones:
     + No debe haber usuarios repetidos
     + La cuenta de usuario debe ser un correo electrónico válido
-    + Lo que tipeo en el input de password es secreto
+    + Lo que se tipea en el input de password es secreto
   - Comportamiento:
     + Al enviarse un formulario de registro o inicio de sesión se valida
       el formulario
@@ -70,15 +70,14 @@ Otras consideraciones:
 A continuación, se muestra el proceso de diseño de la red social, cómo se descubrieron las necesidades de los usuarios y cómo se llegó a la definición final del producto:
 
 * [Elección del tema](https://i.imgur.com/12UnuuC.png)
-* [Planning](link)
-* [Sketch de la solución](link)
+* [Planning](https://trello.com/b/krAR13s1/red-social)
+* [Sketch de la solución](https://imgur.com/a/HgwB3EO)
 * [Paleta de colores](https://i.imgur.com/z0U8VIV.png)
-* [Diseño de la interfaz de usuario](link)
-* [Prototipo de alta fidelidad](link)
+* [Prototipo de alta fidelidad](https://www.figma.com/file/b2tXYTX2VtRmcXAp8ZcDbvL2/red-social)
 * [Benchamark](https://www.slideshare.net/tjarataibo/benchamark)
 * [Resultado encuesta a usuarios](https://www.slideshare.net/tjarataibo/resultado-encuesta-usuarios)
 * [Guía de entrevista a usuarios](https://docs.google.com/forms/d/e/1FAIpQLSeSEutiFsjnyX_2K_mt202xc0b3sW6d2tKO7ptmyYj3YFw2nA/viewform?usp=sf_link)
-* [Resultado entrevista a usuarios](link)
+* [Resultado entrevista a usuarios](https://docs.google.com/document/d/19P2juBUznhLXGsyitU-ximp73yBj7jr1cqYZAOtKa70/edit?usp=sharing)
 
 * ¿Cuáles son los elementos básicos que tiene una red social?
 
