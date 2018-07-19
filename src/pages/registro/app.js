@@ -22,6 +22,7 @@ formulario.addEventListener('submit', e =>  {
                edad: edad,
                correo: correo 
             })
+            location.href = '../login/login.html';
         })
     }
 });

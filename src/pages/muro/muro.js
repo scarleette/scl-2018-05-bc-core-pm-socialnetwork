@@ -2,6 +2,15 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
   });
+  
+  window.onload = () =>{
+    firebase.auth().onAuthStateChanged( user =>{
+        if(user){ //Si está logeado, mostraremos la opción loggedIn
+            console.log(user);
+            perfil(user);
+        }
+    });
+  }
 
   firebase.initializeApp({
     apiKey: 'AIzaSyDLaVedicqCbbFS9Go6CtbfX8COxlZTazk',

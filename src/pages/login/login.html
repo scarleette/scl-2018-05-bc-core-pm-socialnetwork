@@ -4,32 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Link Materialize para css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Link para íconos -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="../perfil/perfil.html">Ver Perfil</a></li>
-            <li><a href="../registro/registro.html">Pantalla de Registro</a></li>
-            <li><a href="../muro/muro.html">Ver Muro</a></li>
-            <li><a href="../buscadoramigos/buscarAmigos.html">Buscar amigos</a></li>
-            <li><a href="../mensajes/mensajes.html">Mensajeria Privada</a></li>
-        </ul>
+    <header class="container" id="titulo">
+        <div class="row">
+            <div class="input-field col s6">
+                <h3><strong>LittlePetSociety</strong></h3>
+                <h5>Encuentra una comunidad para nuestros pequeños amiguitos</h5>
+            </div>
+        </div>   
     </header>
-    <section>
-        <form id="formulario" action="../perfil/perfil.html">
-            <div>Correo Electronico</div>
-            <input type="text" id="correoElectronico">
-            <div>Contraseña</div>
-            <input type="password" id="contraseña">
-            <button type="submit">Ingresar</button>
-        </form>   
+    <section class="container">
+        <form id="formulario" action="#">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="correoElectronico" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="contraseña" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="input-field col s6">
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Login
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            <div><h6>¿No tienes cuenta aun?</h6></div>
+                        <div> <a href="../registro/registro.html"><h6>REGISTRATE CON NOSOTROS</h6></a></div>
+                    </div>
+                </div>
+            </form>   
     </section>
-    <section>
-        <div>¿No tienes cuenta aun?</div>
-        <div> <a href="../registro/registro.html">REGISTRATE</a></div>
-    </section>
+    <!-- Link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link Materialize para JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!-- Link para firebase-->
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
     <script>
     // Initialize Firebase

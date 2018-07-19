@@ -23,3 +23,5 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.slider').slider();
   });
+
+//Funcionalidad para cargar imagen
