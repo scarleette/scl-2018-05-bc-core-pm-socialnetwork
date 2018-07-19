@@ -1,3 +1,4 @@
+var db = firebase.firestore();
 const formulario = document.getElementById('formulario');
 
 formulario.addEventListener('submit', e =>  {
