@@ -5,9 +5,11 @@ Existe una variedad de redes sociales que tienen un montón de utilidades. Conoc
 El plus de esta página diseñada para dispositivos móviles, es que además de la interacción que ofrecen todas las redes sociales, en una de sus múltiples vistas, muestra la opción de búsqueda de clínicas veterinarias en convenio, con disponibilidad de horarios: servicio médico veterinario a domicilio, atención clínica veterinaria durante el día y atención 24 horas. Junto con esto, también es posible realizar preguntas de orientación a médicos veterinarios a través de mensajería.
 (Cabe destacar que la "orientación" siempre se basa en su significado literal, puesto a que no se considerará jamás como equivalente o reemplazo a una consulta veterinaria).
 
+
 ## Definición del producto
 
 ### UI
+
 LittlePetSociety permite lo siguiente:
 
 * Crear una cuenta
@@ -60,12 +62,4 @@ Las principales funcionalidades son las que definen a una red social: poder ingr
 
 Realizando entrevistas que nos dieran aciertos para impulsar el producto. En la búsqueda de usuarios, muchos daban cuenta de su preocupación por sus mascotas y los puntos de intereses.
 Promoviendo el producto del mismo modo como se realizó en las entrevistas, invitando a la comunidad a participar e insertar el consumo responsable y profesional de información, como lo es la salud que merecen nuestros animales.
-
-
-
-
-
-
-
-
 
