@@ -40,7 +40,7 @@
             post.innerHTML += `
             <div class="container">
               <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col s12 col l6">
                   <div class="card">
                       <h5 class="card-header">${doc.data().first}</h5>
                       <div id="post" class="card-body"></div>
