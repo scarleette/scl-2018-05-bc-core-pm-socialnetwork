@@ -13,7 +13,6 @@
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
      <title>Muro</title>
 </head>
-<<<<<<< HEAD
 <body>
   
 <!--Menú (hamburguesa) y búsqueda-->
@@ -51,42 +50,28 @@
       <button id="enviar" class="btn waves-effect waves-light" type="submit" onclick="guardar()" name="action">Enviar
         <i class="material-icons right">send</i>
       </button>
-=======
-  <body> 
-  <!--Menú (hamburguesa) y búsqueda-->
-  <nav class="lime"> 
-    <div id="barra"> 
-        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
->>>>>>> 89ca2a6d69ff3ca083b964e198b9a1b847c6caf2
     </div>
-  </nav>
-  <!--Despliegue menú-->
-  <ul id="slide-out" class="sidenav">
-    <li><a class="subheader">Little Pet Socity Comunity</a></li>
-    <li><a href="../perfil/perfil.html"><i class="material-icons">account_circle</i>Perfil</a></li>
-    <li><a href="../mensajes/mensajes.html"><i class="material-icons">email</i>Mensajes privados</a></li>
-    <li><a href="../buscadorClinicas/buscadorClinica.html"><i class="material-icons">local_convenience_store</i>Clínicas veterinarias</a></li>
-    <li><div class="divider"></div></li>
-    <!-- <li><a class="waves-effect" href="#!">Lo que sea que haya que agregar</a></li> -->
-  </ul>
-  <!--Escribe aquí-->
-  <!--Estructura para el post-->
-  <section id="post"></section>
-  <!--Estructura para mi post-->  
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <input type="text" id="nombre" placeholder="nombre"> 
-        <textarea name="" id="comentario" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
-        <a id="enviar" class="btn btn-primary" onclick="guardar()">Enviar</a>
-      </div>
-      <!-- Link Jquery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <!-- Link Materialize para JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-      <!-- Link para firebase-->
-      <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-      <script src="../login/app.js"></script>
-      <script src="muro.js"></script>
-  </body>
+    <!-- Link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link Materialize para JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!-- Link para firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+ <script>
+ // Initialize Firebase
+     var config = {
+         apiKey: "AIzaSyAKSTrAkULOy4WbnP5ZOEhZn_XMM-LLWlc",
+         authDomain: "red-social-cc22a.firebaseapp.com",
+         databaseURL: "https://red-social-cc22a.firebaseio.com",
+         projectId: "red-social-cc22a",
+         storageBucket: "red-social-cc22a.appspot.com",
+         messagingSenderId: "1056204867810"
+     };
+     firebase.initializeApp(config);
+ </script>
+    
+    <script src="../login/app.js"></script>
+    <script src="muro.js"></script>
+</body>
+
 </html>
