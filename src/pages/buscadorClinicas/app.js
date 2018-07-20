@@ -22,8 +22,8 @@ $(document).ready(function(){
 
 
 //Funcionalidad para "Me gusta" con patita
-function paintPatita(key) {
-  const pata = document.getElementById("patota-" + key);
-  pata.classList.toggle('green');
+// function paintPatita(key) {
+//   const pata = document.getElementById("patota-" + key);
+//   pata.classList.toggle('green');
 
-}
+// }
