@@ -1,22 +1,24 @@
 # LittlePetSociety
 
 
-Existe una variedad de redes sociales que tienen un montón de utilidades. Conocemos Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin y, en general, nos ayudan a mantenernos conectados en esta era de la tecnolgía. En consideración a ello y en la deficiencia que existe de una con contenidos basados en la salud animal, hemos creado una red social llamada "LittlePetSociety", con el propósito de que nuestros usuarios puedan interactuar e informarse más sobre los animales menores; que corresponden a perros y gatos.
+Existe una variedad de redes sociales que tienen un montón de utilidades. Conocemos Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin y, en general, nos ayudan a mantenernos conectados en esta era de la tecnolgía. En consideración a ello y en la deficiencia que existe de una con contenidos basados en la salud animal, hemos creado una red social llamada "[LittlePetSociety](https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html)", con el propósito de que nuestros usuarios puedan interactuar e informarse más sobre los animales menores; que corresponden a perros y gatos.
 El plus de esta página diseñada para dispositivos móviles, es que además de la interacción que ofrecen todas las redes sociales, en una de sus múltiples vistas, muestra la opción de búsqueda de clínicas veterinarias en convenio, con disponibilidad de horarios: servicio médico veterinario a domicilio, atención clínica veterinaria durante el día y atención 24 horas. Junto con esto, también es posible realizar preguntas de orientación a médicos veterinarios a través de mensajería.
 (Cabe destacar que la "orientación" siempre se basa en su significado literal, puesto a que no se considerará jamás como equivalente o reemplazo a una consulta veterinaria).
 
 
+## Definición del producto
 
-* LittlePetSociety permite lo siguiente:
+### UI
+
+LittlePetSociety permite lo siguiente:
 
 * Crear una cuenta
 * Iniciar sesión con Facebook
-* Ademas de tener un muro en el cual podras compartir tus dudas y 
-  soluciones a problemas que mas de algun amigo tambien a tenido y no ha
-  sabido como resolver.
-* consultar a veterinarios certificados.
-* buscar la clinica veterinaria mas cercana a tu hogar en caso de urgencia.
+* Acceder a un muro en el cual se puedan compartir comentarios, dudas y soluciones a problemas.
+* Consultar a Médicos veterinarios en línea.
+* Buscar clínicas veterinarias para atención caso de urgencia o para consultas de rutina.
 
+### UX
 
 A continuación, se muestra el proceso de diseño de la red social, cómo se descubrieron las necesidades de los usuarios y cómo se llegó a la definición final del producto:
 
@@ -45,15 +47,12 @@ Resuelve dudas de cuidados básicos en una mascota, desde la guía y orientació
 
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 
-    Que cuenten con una plataforma que les permita obtener informacion de manera clara y
-    rapida sobre cuidados y atencion de urgencia para sus mascotas.
-    Obtener información y datos relevantes sobre la salud de las mascotas, poder interactuar con una comunidad afín e informarse de lugares con atención en diferentes horarios.
+Que cuenten con una plataforma que les permita obtener informacion de manera clara y rápida sobre cuidados básicos que debemos tener a la hora de pensar en integrarlos a su entorno familiar.
+Obtener información y datos relevantes sobre la salud de las mascotas, poder interactuar con una comunidad afín e informarse de lugares con atención en diferentes horarios.
 
 * ¿Cómo te asegurarás que estos usuarios usen este producto?
 
-  Cuidar de nuestras mascotas es un tema que cada vez toma mas fuerza en el mundo,
-  y la tecnologia les ha permitido necesitar de aplicaciones que les faciliten 
-  estos procesos, adios publiguias bienvenido LittlePetSociety.
+Cuidar de nuestras mascotas es un tema que cada vez toma más fuerza en el mundo y, la tecnología, nos ha permitido necesitar de aplicaciones que faciliten estos procesos. Es por ello, que en la constancia de informar y promover esta fusión, a través del "boca a boca" nos aseguraremos de que se difunda y sea de consumo masivo.
 
 * ¿Cuáles son las principales funcionalidades del producto y cuál es su prioridad?
 
@@ -64,5 +63,3 @@ Las principales funcionalidades son las que definen a una red social: poder ingr
 Realizando entrevistas que nos dieran aciertos para impulsar el producto. En la búsqueda de usuarios, muchos daban cuenta de su preocupación por sus mascotas y los puntos de intereses.
 Promoviendo el producto del mismo modo como se realizó en las entrevistas, invitando a la comunidad a participar e insertar el consumo responsable y profesional de información, como lo es la salud que merecen nuestros animales.
 
-# link para ingresar
-https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html
