@@ -1,13 +1,9 @@
 # LittlePetSociety
 
 
-Existe una variedad de redes sociales que tienen un montón de utilidades. Conocemos Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin y, en general, nos ayudan a mantenernos conectados en esta era de la tecnolgía. En consideración a ello y en la deficiencia que existe de una con contenidos basados en la salud animal, hemos creado una red social llamada "LittlePetSociety", con el propósito de que nuestros usuarios puedan interactuar e informarse más sobre los animales menores; que corresponden a perros y gatos.
+Existe una variedad de redes sociales que tienen un montón de utilidades. Conocemos Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin y, en general, nos ayudan a mantenernos conectados en esta era de la tecnolgía. En consideración a ello y en la deficiencia que existe de una con contenidos basados en la salud animal, hemos creado una red social llamada "[LittlePetSociety](https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html)", con el propósito de que nuestros usuarios puedan interactuar e informarse más sobre los animales menores; que corresponden a perros y gatos.
 El plus de esta página diseñada para dispositivos móviles, es que además de la interacción que ofrecen todas las redes sociales, en una de sus múltiples vistas, muestra la opción de búsqueda de clínicas veterinarias en convenio, con disponibilidad de horarios: servicio médico veterinario a domicilio, atención clínica veterinaria durante el día y atención 24 horas. Junto con esto, también es posible realizar preguntas de orientación a médicos veterinarios a través de mensajería.
 (Cabe destacar que la "orientación" siempre se basa en su significado literal, puesto a que no se considerará jamás como equivalente o reemplazo a una consulta veterinaria).
-
-Ingresa a nuestra Red Social:
-*[LittlePetSociety](https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html)
-
 
 ## Definición del producto
 
