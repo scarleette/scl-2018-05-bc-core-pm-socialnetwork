@@ -32,17 +32,20 @@
           <li><div class="divider"></div></li>
           <!-- <li><a class="waves-effect" href="#!">Lo que sea que haya que agregar</a></li> -->
         </ul>
-<!--Escribe aquí-->
+
 <!--Estructura para el post-->
-<section id="post">
+<section id="post" class="post">
 </section>
+
 <!--Estructura para mi post-->  
 <div class="container">
   <div class="row">
-    <div class="col-12 col-md-6">
-      <input type="text" id="nombre" placeholder="nombre"> 
-      <textarea name="" id="comentario" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
-      <a id="enviar" class="btn btn-primary" onclick="guardar()">Enviar</a>
+    <div class="col s12 l6">
+      <input type="text" id="nombre" placeholder="Escribe tu nombre"> 
+      <textarea name="" id="comentario" cols="30" rows="10" placeholder="Escribe aqui tu comentario..."></textarea>
+      <button id="enviar" class="btn waves-effect waves-light" type="submit" onclick="guardar()" name="action">Enviar
+        <i class="material-icons right">send</i>
+      </button>
     </div>
     <!-- Link Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
