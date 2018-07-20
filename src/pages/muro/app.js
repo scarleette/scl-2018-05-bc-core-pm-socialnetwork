@@ -3,7 +3,8 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
   });
 
-//Funcionalidad imagen usuario
 
-
-
+//Carrousel
+$(document).ready(function(){
+  $('.slider').slider();
+});
