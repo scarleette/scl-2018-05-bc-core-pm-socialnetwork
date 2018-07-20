@@ -53,3 +53,8 @@ Resuelve dudas de cuidados básicos en una mascota, desde la guía y orientació
   Cuidar de nuestras mascotas es un tema que cada vez toma mas fuerza en el mundo,
   y la tecnologia les ha permitido necesitar de aplicaciones que les faciliten 
   estos procesos, adios publiguias bienvenido LittlePetSociety.
+
+
+# link para ingresar 
+
+https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html
