@@ -1,8 +1,11 @@
+
+
 /*Textarea*/
 .rowOne{
     padding: 100px;
     
 }
+
 /*Menú fijo*/
 #barra{
     position: absolute;
@@ -13,6 +16,13 @@
     position: absolute;
     margin-left: 450px;
 } */
+
+img{
+    width: 100%;
+}
+#post{
+    margin-top: 5%;
+}
 
 
 
