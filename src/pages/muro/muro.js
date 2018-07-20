@@ -2,8 +2,7 @@
 +$(document).ready(function(){
        $('.sidenav').sidenav();
       });
-    
-     
+      
       //archivo que saque en firabe donde dice agregar datos
       // Initialize Cloud Firestore through Firebase
       var db = firebase.firestore();
@@ -45,7 +44,7 @@
                       <h5 class="card-header">${doc.data().first}</h5>
                       <div id="post" class="card-body"></div>
                         <p class="card-text">${doc.data().comentario}</p>
-                        <a id="eliminar" class="btn btn-primary" onclick="eliminar('${doc.id}')">Eliminar</a>
+                        <a id="eliminar" class="btn btn-primary" onclick="eliminar('${doc.id}')">eliminar</a>
                         <a id="editar" class="btn btn-primary" onclick="editar('${doc.id}','${doc.data().comentario}')">Editar</a>
                       </div>
                     
