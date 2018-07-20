@@ -47,6 +47,7 @@ Resuelve dudas de cuidados básicos en una mascota, desde la guía y orientació
 
     Que cuenten con una plataforma que les permita obtener informacion de manera clara y
     rapida sobre cuidados y atencion de urgencia para sus mascotas.
+    Obtener información y datos relevantes sobre la salud de las mascotas, poder interactuar con una comunidad afín e informarse de lugares con atención en diferentes horarios.
 
 * ¿Cómo te asegurarás que estos usuarios usen este producto?
 
@@ -54,7 +55,14 @@ Resuelve dudas de cuidados básicos en una mascota, desde la guía y orientació
   y la tecnologia les ha permitido necesitar de aplicaciones que les faciliten 
   estos procesos, adios publiguias bienvenido LittlePetSociety.
 
+* ¿Cuáles son las principales funcionalidades del producto y cuál es su prioridad?
 
-# link para ingresar 
+Las principales funcionalidades son las que definen a una red social: poder ingresar con un filtro de registro o autentificación, compartir escritos, buscar amigos, compartir con ellos y con veterinarios en línea. En definitiva, la prioridad es utilizar todas estas herramientas para acercar y promover el cuidado de nuestros animales menores.
 
+* ¿Cómo verificaste que el producto les está resolviendo sus problemas?
+
+Realizando entrevistas que nos dieran aciertos para impulsar el producto. En la búsqueda de usuarios, muchos daban cuenta de su preocupación por sus mascotas y los puntos de intereses.
+Promoviendo el producto del mismo modo como se realizó en las entrevistas, invitando a la comunidad a participar e insertar el consumo responsable y profesional de información, como lo es la salud que merecen nuestros animales.
+
+# link para ingresar
 https://scarleette.github.io/scl-2018-05-bc-core-pm-socialnetwork/src/pages/login/login.html
